@@ -1,0 +1,51 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.box2 {
+  width: 200px;
+  height: 100px;
+}
+
+.green {
+  background-color: lightgreen;
+  /* position: static;  기본값 */
+}
+
+.absolute {
+  background-color: lightskyblue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.relative {
+  background-color: lightpink;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.fixed {
+  background-color: violet;
+  position: fixed;
+  /* fixed: 문서에 고정됨. 스크롤내려도 사라지지 않고 따라옴. fixed도 기본 위치가 부모의 절대 위치 */
+  top: 30px;
+  left: 30px;
+}
+
+.salmon {
+  background-color: lightsalmon;
+}
+
+.aqua {
+  background-color: aqua;
+}
+
+.wood {
+  background-color: burlywood;
+  position: sticky;
+  /* top: 20px;   sticky에서 top은 초기 위치에는 반영되지 않지만 스크롤을 내릴 때 적용됨. */
+  left: 20px;
+  /* fixed처럼 문서에 고정되나, relative처럼 기본 위치가 문서상 자신의 위치임. */
+}

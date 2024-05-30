@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.position.css" />
+    <title>position</title>
+  </head>
+  <body style="border: 1px solid red">
+    <div class="box green">box1</div>
+    <div class="box absolute">absolute</div>
+    <div class="box relative">relative</div>
+    <div class="box2 fixed">fixed</div>
+    <div class="box2 aqua">aqua</div>
+    <div class="box2 wood">wood</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+    <div class="box2 salmon">box4</div>
+  </body>
+</html>
+
+<!-- 
+    <div style="width: 100px; height: 100px; background-color: lightgreen">
+        box1
+      </div>
+      <div
+        style="
+          width: 100px;
+          height: 100px;
+          background-color: lightskyblue;
+          position: absolute;
+        "
+      >
+        box2
+      </div>
+      <div style="width: 100px; height: 100px; background-color: lightpink">
+        box3
+      </div>
+      <div style="width: 100px; height: 100px; background-color: lightsalmon">
+        box4
+      </div> -->
+
+<!-- 
+
+        box2에  position: absolute를 적용함.  
+        absolute는 부모의 절대값 좌표에 위치시키는 속성이고, 0,0 이 기본값이라서 
+        box1과 box2가 겹칠 것이락 예상함. 
+
+        그러나 box1 아래  box2와 box3이 겹쳐지는 현상이 나타났는데... 
+        position: absolute일 때 위치값을 명시하지 않으면 원래 자신의 위치에서 절대 위치가 
+        적용된다고 한다. 
+
+        그래서 box2는 box1 아래 위치하게 되지만, 절대 위치라서 문서흐름에서 빠져 나게가 된다.
+        box3이 문서흐름에 따라 box1 아래 그려져서 box2와 겹치게 된다. 
+
+
+       -->

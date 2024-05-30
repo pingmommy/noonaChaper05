@@ -1,0 +1,114 @@
+.border {
+  border: 1px solid red;
+}
+
+.c1-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.green {
+  background-color: lightgreen;
+  text-align: center;
+  line-height: 200px;
+  color: green;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.margin {
+  margin: 0 10px;
+}
+
+.divided-line {
+  margin: 40px 0;
+  width: 100%;
+  border-bottom: 5px solid lightgrey;
+}
+
+.wood {
+  background-color: blanchedalmond;
+  text-align: center;
+  line-height: 200px;
+  color: rgb(202, 158, 101);
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.c2-center {
+  display: flex;
+  justify-content: center;
+}
+
+.c2-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.c3-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mother-box03 {
+  background-color: rgb(208, 240, 208);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.c3-box-name-span {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.c4-container {
+  position: relative;
+}
+
+.wood2 {
+  background-color: rgb(248, 218, 173);
+  text-align: center;
+  line-height: 200px;
+  color: rgb(202, 158, 101);
+  font-weight: 500;
+  font-size: 25px;
+  position: absolute;
+  left: 70px;
+  top: 70px;
+}
+
+.c5-container {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.mother-box05 {
+  background-color: rgb(208, 240, 208);
+  width: 600px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c5-box1-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
