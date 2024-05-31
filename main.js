@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   c1b1.addEventListener("click", () => {
     c1b1.classList.add("left");
-    c1b1.textContent = "BOX1";
+    c1b1.textContent = "🐢";
   });
 
   c3MotherBox.addEventListener("click", () => {
@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   c4Event.addEventListener("click", () => {
+    c4Event.style.display = "none";
     c4b2.style.left = "70px";
     c4b1.style.left = "0px";
-    c4Event.style.visibility = "hidden";
   });
 });

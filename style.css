@@ -76,11 +76,36 @@
   height: 200px;
 }
 
+.c2-second-child {
+  position: absolute;
+  top: 0;
+  /* transition: transform 3s ease; */
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.c2-second-child:hover {
+  /* transform: translateY(400px); */
+  top: -10px;
+}
+
 .c2-third {
   display: flex;
   justify-content: flex-end;
   position: relative;
   height: 200px;
+}
+
+.c2-third-child {
+  position: absolute;
+  top: 0;
+  transition: transform 3s ease;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.c2-third-child:hover {
+  transform: translateY(-400px);
 }
 
 .c3-container {
@@ -116,13 +141,18 @@
 }
 
 .c4-container {
+  height: 300px;
+}
+
+.c4-position {
   position: relative;
 }
 
 #c4-event {
   color: rgb(214, 148, 60);
   font-weight: 700;
-  font-size: 25px;
+  font-size: 60px;
+  margin: 70px 0 0 200px;
   cursor: pointer;
 }
 #c4b1 {
