@@ -8,7 +8,7 @@
 }
 
 .green {
-  background-color: lightgreen;
+  background-color: rgb(208, 240, 208);
   text-align: center;
   line-height: 200px;
   color: green;
@@ -79,13 +79,11 @@
 .c2-second-child {
   position: absolute;
   top: 0;
-  /* transition: transform 3s ease; */
   font-weight: 800;
   cursor: pointer;
 }
 
 .c2-second-child:hover {
-  /* transform: translateY(400px); */
   top: -10px;
 }
 
